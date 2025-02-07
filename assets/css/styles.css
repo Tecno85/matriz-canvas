@@ -1,0 +1,118 @@
+:root {
+  --font-size-h1: "Rubik Marker Hatch", serif;
+  --font-size-h3: "Baumans", serif;
+  --font-size-content: "Quicksand", serif;
+  --font-size-footer: "Genos", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(27, 103, 67);
+  color: rgb(231, 247, 215);
+}
+
+body {
+    margin: 0rem 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--font-size-h1);
+  font-size: 2.5rem;
+  border-bottom: 2px solid rgb(231, 247, 215);
+  padding-bottom: 1rem;
+  margin: 2rem 0rem 1.5rem;
+}
+
+.principal {
+  background-color: rgb(75, 126, 109);
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+  /*  border: 2px solid rgb(247, 244, 244);*/
+}
+
+.segmento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(231, 247, 215);
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  /* max-width: 450px;*/
+}
+
+.imagen img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin: 0rem 0.1rem 0rem 0.2rem;
+}
+
+.titulo-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  margin: 0rem 0.5rem;
+}
+
+.titulo-contenido .titulo {
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--font-size-h3);
+  margin: 0rem 0rem 0.8rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.titulo-contenido .contenido {
+  margin: 0rem 1.5rem;
+  max-width: 100%;
+}
+
+.contenido {
+    font-family: var(--font-size-content);
+    font-size: 0.9rem;
+    line-height: 1.15rem;
+}
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-top: 2px solid rgb(231, 247, 215);
+    margin-top: 1.5rem ;
+} 
+
+.social-icons a img {
+    margin: 0rem 0.5rem;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-family: var(--font-size-footer);
+}
+
+.footer-image {
+    height: 1.4rem;
+}
