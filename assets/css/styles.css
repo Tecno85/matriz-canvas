@@ -89,6 +89,16 @@ h3 {
     font-size: 0.9rem;
     line-height: 1.15rem;
 }
+
+.contenido li {
+  list-style-type:square;
+  
+}
+
+.contenido li::marker {
+  font-size: 0.8rem;  
+}
+
 /* Footer */
 
 footer {
