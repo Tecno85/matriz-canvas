@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(27, 103, 67);
+  background-color: rgb(7, 83, 94);
   color: rgb(231, 247, 215);
 }
 
@@ -22,7 +22,7 @@ h1 {
   font-family: var(--font-size-h1);
   font-size: 2.5rem;
   padding-bottom: 1rem;
-  margin: 2.5rem 0rem 1.5rem;
+  margin: 2.5rem 0rem 2.2rem;
 }
 
 .principal {
@@ -45,7 +45,6 @@ h1 {
   margin: 0.2rem;
   padding: 0.2rem;
   border-radius: 0.5rem;
-  /* max-width: 450px;*/
 }
 
 .imagen img {
@@ -107,7 +106,6 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    color: white;
     border-top: 2px solid rgb(231, 247, 215);
     margin-top: 1.5rem;
 } 
@@ -117,9 +115,11 @@ footer {
 }
 
 .footer-text {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin-top: 1rem;
     font-family: var(--font-size-footer);
+    font-weight: 450;
+    color: rgb(255, 255, 255);
 }
 
 .footer-image {
