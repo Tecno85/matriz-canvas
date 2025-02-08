@@ -41,7 +41,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(231, 247, 215);
+  border-left: 2px solid rgb(231, 247, 215);
+  border-bottom:  2px solid rgb(231, 247, 215);
   margin: 0.2rem;
   padding: 0.2rem;
   border-radius: 0.5rem;
@@ -106,7 +107,7 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    border-top: 2px solid rgb(231, 247, 215);
+
     margin-top: 1.5rem;
 } 
 
