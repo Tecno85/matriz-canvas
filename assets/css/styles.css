@@ -21,9 +21,8 @@ h1 {
   text-align: center;
   font-family: var(--font-size-h1);
   font-size: 2.5rem;
-  border-bottom: 2px solid rgb(231, 247, 215);
   padding-bottom: 1rem;
-  margin: 2rem 0rem 1.5rem;
+  margin: 2.5rem 0rem 1.5rem;
 }
 
 .principal {
@@ -34,7 +33,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
   /*  border: 2px solid rgb(247, 244, 244);*/
 }
 
@@ -81,13 +80,13 @@ h3 {
 
 .titulo-contenido .contenido {
   margin: 0rem 1.5rem;
-  max-width: 100%;
 }
 
-.contenido {
+.contenido ul {
     font-family: var(--font-size-content);
     font-size: 0.9rem;
     line-height: 1.15rem;
+    width: 130px;
 }
 
 .contenido li {
@@ -110,7 +109,7 @@ footer {
     padding: 20px;
     color: white;
     border-top: 2px solid rgb(231, 247, 215);
-    margin-top: 1.5rem ;
+    margin-top: 1.5rem;
 } 
 
 .social-icons a img {
