@@ -41,8 +41,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 2px solid rgb(231, 247, 215);
-  border-bottom:  2px solid rgb(231, 247, 215);
+  border-left: 2.5px solid rgb(240, 248, 233);
+  border-bottom:  3px solid rgb(240, 248, 233);
   margin: 0.2rem;
   padding: 0.2rem;
   border-radius: 0.5rem;
