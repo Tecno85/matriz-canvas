@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(7, 83, 94);
-  color: rgb(231, 247, 215);
+  color: rgb(240, 248, 233);
 }
 
 body {
@@ -119,7 +119,6 @@ footer {
     margin-top: 1rem;
     font-family: var(--font-size-footer);
     font-weight: 450;
-    color: rgb(255, 255, 255);
 }
 
 .footer-image {
